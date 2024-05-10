@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bash script that pings an IP address passed as an argument.
+# a Bash script that pings an IP address passed as an argument.
 # Requirements:
 # Accepts a string as an argument
 # Displays Usage: 5-is_the_host_on_the_network {IP_ADDRESS} 
@@ -14,4 +14,4 @@ elif [$# -gt 1 ]; then
     exit
 else
  ping "$1" -c 5
-fi
+ fi
