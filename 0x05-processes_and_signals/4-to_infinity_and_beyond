@@ -3,5 +3,5 @@
 
 while true;do
    echo "to infinity and beyond"
-sleep 2
+In between each iteration of the loop, add a sleep 2
 done
